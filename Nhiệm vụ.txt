@@ -1,0 +1,41 @@
+----------------------------------Nhiệm vụ----------------------------------
+
+Phong: nhóm trưởng
+	Định hướng chung và thiết kế giao diện
+	Tạo cơ sở dữ liệu và các phương thức đi kèm
+	Tạo giao diện sắp xếp danh sách sinh viên và các chức năng đi kèm
+	Giúp đỡ các thành viên trong việc sửa chữa và tìm lỗi để hoàn thiện chương trình
+Hiếu: 
+	Tạo giao diện quản lý sinh viên và các chức năng đi kèm
+	Tạo giao diện thông tin project
+	Tạo giao diện chính
+	Góp ý chỉnh sửa ý tưởng và định hướng project
+Đoàn:
+	Tạo giao diện màn hình khởi chạy
+	Tạo giao diện đăng nhập chương trình và chức năng đi kèm
+	Tạo giao diện quản lý giáo viên và các chức năng đi kèm
+	Góp ý chỉnh sửa ý tưởng và định hướng project
+
+-------------------------------Quản lý nhánh-------------------------------
+
+Phong: nhóm trưởng
+	database: Connect, ServiceGV, ServiceSV
+	danhsachUI: danhsachUI
+Hiếu:
+	quanlysvUI: quanlysvUI, ThemSinhVienUI, SinhVien
+	mainUI: mainUI
+	thongtinUI: thongtinUI
+Đoàn:
+	splashScreenUI: SplashScreen
+	loginUI: loginUI, ServiceLogin, Account
+	quanlygvUI: quanlygvUI, ThemGiaoVienUI, GiaoVien
+
+----------------------Hướng dẫn sử dụng file database----------------------
+
+B1: Cài đặt và khởi chạy XAMPP
+B2: Nhấn Start để khởi động 2 Module Apache và MySQL
+B3: Truy cập http://localhost/dashboard/ trên trình duyệt và chọn vào tab phpMyAdmin
+B4: Tạo cơ sở dữ liệu mới có tên là "database_quanlysinhvien" và thực hiện import 
+file database_quanlysinhvien.sql
+B5: Sử dụng chương trình bằng cách chạy trực tiếp file QuanLySinhVienFinal.jar hoặc 
+chạy file mainUI trong source code
